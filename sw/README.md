@@ -35,15 +35,19 @@ python sw/golden_model.py
 ```bash
 python sw/create_fp32_model.py
 ```
+<img width="1919" height="599" alt="1(2)" src="https://github.com/user-attachments/assets/ae2369e7-d627-45a6-afc7-a004b8ad1854" />
 
 ### 3. Verify TFLite output
 ```bash
 python sw/tflite_check_1.py
 ```
+<img width="1891" height="511" alt="2" src="https://github.com/user-attachments/assets/dc7ea318-349b-4dd0-9ffc-aacb22424b9f" />
+
 
 ## Verification Result
 The software model, TensorFlow Lite model, and RTL simulation produce matching outputs for the selected test matrices.  
 This confirms correct software-RTL co-simulation and validates the accelerator pipeline.
+
 
 ## Notes
 - TensorFlow warnings related to oneDNN or interpreter deprecation do not affect the correctness of the results.
