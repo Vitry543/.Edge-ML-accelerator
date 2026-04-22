@@ -105,6 +105,10 @@ Using Iverilog
 
 <img width="1891" height="511" alt="2" src="https://github.com/user-attachments/assets/8f6b3485-c03e-4bc9-af1e-3d9a99e3c6fe" />
 
+from GTKWAVE
+
+<img width="994" height="626" alt="Screenshot 2026-04-21 140514" src="https://github.com/user-attachments/assets/56267bba-a159-4477-873f-66964107a18a" />
+
 
 
 
