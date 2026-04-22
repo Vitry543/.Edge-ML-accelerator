@@ -80,6 +80,13 @@ This confirms that the RTL implementation correctly performs matrix multiplicati
 
 The software model generates the golden reference result, and the TensorFlow Lite FP32 model is used to confirm consistency with the RTL output. The verification scripts compare the expected output with the generated output and report a successful match.
 
+
+
+<img width="1919" height="599" alt="1(2)" src="https://github.com/user-attachments/assets/e0f5b1e0-472d-42bf-b62c-e24196cba7e0" />
+
+<img width="1891" height="511" alt="2" src="https://github.com/user-attachments/assets/978fc375-caa3-4609-bfa4-c9bbe0b5a6cc" />
+
+
 ## Future Scope
 
 - Scale the design to 4×4, 8×8, and NxN matrix sizes.
