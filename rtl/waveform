@@ -1,0 +1,32 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Tue Apr 21 08:49:58 2026
+[*]
+[dumpfile] "C:\Users\Usha Biratthi\Downloads\vlsi projects\edge_ml_accel\tb_edge_accel.vcd"
+[dumpfile_mtime] "Tue Apr 21 08:47:57 2026"
+[dumpfile_size] 4205
+[savefile] "C:\Users\Usha Biratthi\Downloads\vlsi projects\edge_ml_accel\rtl\waveform"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-14.289956 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 102
+[sst_expanded] 1
+[sst_vpaned_height] 153
+@28
+tb_edge_accel.clk
+tb_edge_accel.rst_n
+tb_edge_accel.done
+tb_edge_accel.start
+@22
+tb_edge_accel.c00[31:0]
+tb_edge_accel.c01[31:0]
+tb_edge_accel.c10[31:0]
+tb_edge_accel.c11[31:0]
+tb_edge_accel.q00[7:0]
+tb_edge_accel.q01[7:0]
+tb_edge_accel.q10[7:0]
+tb_edge_accel.q11[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
