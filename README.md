@@ -103,3 +103,10 @@ This project demonstrates a complete RTL-based edge ML accelerator with verified
 ## Author
 
 Manikanta Subbarao B
+
+## Contact
+
+- Author: Manikanta Subbarao B
+- Email:(manikantasubbarao36@zohomail.in)
+- GitHub:(https://github.com/vitry543)
+- LinkedIn: (https://www.linkedin.com/in/manikanta-subbarao-b-802839235/)
