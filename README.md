@@ -71,6 +71,8 @@ PASS: matrix multiply correct
 <img width="1067" height="281" alt="Screenshot 2026-04-21 225550" src="https://github.com/user-attachments/assets/b7d05a68-0bf9-471e-8d57-5d948c47b94f" />
 
 This confirms that the RTL implementation correctly performs matrix multiplication, ReLU, and quantization.
+
+
 <img width="1069" height="688" alt="Screenshot 2026-04-21 140215" src="https://github.com/user-attachments/assets/3b595c68-9421-4866-89a4-8c17cb9f62fe" />
 
 
