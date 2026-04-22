@@ -1,8 +1,16 @@
 # .Edge-ML-accelerator
 RTL-based 2×2 Edge ML Accelerator with DMA feeder, MAC array, ReLU quantization, software golden model, and Vivado verification for FPGA-based edge AI acceleration.
 
+
+
+
+
+
 Overview
 This repository contains the RTL implementation and verification assets for a 2×2 edge machine learning accelerator. The design performs matrix multiplication using a 2×2 MAC array, followed by ReLU activation and quantization, with results verified against a software golden model and TensorFlow Lite FP32 reference. The project demonstrates a complete hardware-software co-verification flow and is intended as a foundation for scalable FPGA-based edge AI acceleration.
+
+
+
 
 Features
 	2×2 matrix multiplication accelerator in RTL.
@@ -20,6 +28,10 @@ Features
 	Vivado behavioral simulation verification.
 
 	Modular design suitable for future scaling.
+
+
+
+
 
 Project Structure
 edge_ml_accel/
@@ -39,6 +51,11 @@ edge_ml_accel/
 └── report/
     └── project_report.pdf
 
+
+
+
+
+
 Verification Summary
 The design was verified using both software and RTL simulation. The input matrices used for validation were:
 A = [[1, 2],
@@ -54,6 +71,10 @@ C = [[19, 22],
 Q = [[9, 11],
      [21, 25]]
 
+
+
+
+
 Simulation Results
 Vivado XSim behavioral simulation produced the following output:
 
@@ -65,6 +86,10 @@ Q matrix:
 q00=9 q01=11
 q10=21 q11=25
 PASS: matrix multiply correct
+
+
+
+
 
 Software Integration
 The repository includes software-side scripts used to validate the RTL implementation:
@@ -81,6 +106,10 @@ TFLite FP32 output: [19 22 43 50]
 Expected RTL C:      [19 22 43 50]
 MATCH: True
 
+
+
+
+
 Future Scope
 	Extend the design to 4×4, 8×8, or NxN matrix sizes.
 
@@ -92,8 +121,18 @@ Future Scope
 
 	Implement FPGA deployment for real-time edge inference.
 
+
+
+
+
+
 Conclusion
 This project demonstrates the design and verification of a compact edge ML accelerator in RTL. The results from software, TensorFlow Lite, and Vivado simulation all match exactly, proving the correctness of the implementation. The modular architecture makes the design suitable for future expansion into larger and more advanced FPGA-based ML accelerators.
+
+
+
+
+
 
 Requirements
 	Python 3.x
