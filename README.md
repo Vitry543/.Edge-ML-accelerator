@@ -12,7 +12,7 @@ This repository contains the RTL implementation and verification assets for a 2�
 
 
 
-Features
+Features:
 	2×2 matrix multiplication accelerator in RTL.
 
 	DMA feeder for input matrix loading.
